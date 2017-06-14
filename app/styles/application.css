@@ -1,0 +1,12 @@
+* {
+  box-sizing: border-box;
+  font-family: -apple-system, system, sans-serif;
+}
+
+.content {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.image { opacity: 0; transition: opacity 0.3s; }
+.image-loaded { opacity: 1; }
